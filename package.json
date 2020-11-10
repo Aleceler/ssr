@@ -1,0 +1,27 @@
+{
+  "name": "ssr-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "dev": "parcel src/index.html",
+    "build": "parcel build --public-url ./dist/ src/index.html",
+    "start": "babel-node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
