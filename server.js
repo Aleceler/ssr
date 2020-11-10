@@ -8,7 +8,7 @@ import App from "./src/App";
 const PORT = process.env.PORT || 3000;
 
 const html = fs.readFileSync("dist/index.html");
-const parts = html.split("not rendered");
+const parts = html.toString().split("not rendered");
 
 const app = express();
 
