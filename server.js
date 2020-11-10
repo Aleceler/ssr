@@ -5,7 +5,7 @@ import { ServerLocation } from "@reach/router";
 import fs from "fs";
 import App from "./src/App";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const html = fs.readFileSync("dist/index.html");
 const parts = html.toString().split("not rendered");

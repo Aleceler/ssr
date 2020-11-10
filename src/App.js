@@ -1,7 +1,12 @@
 import React from "react";
+import styled from "styled-components";
+
+const Title = styled.h1`
+  color: red;
+`;
 
 const App = () => {
-  return <h1>App</h1>;
+  return <Title>App</Title>;
 };
 
 export default App;
